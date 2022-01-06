@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gamecontainer{
+    width:600px;
+    height: 730px;
+    position: absolute;
+    
+}
+.hide{
+    display:none;
+}
+.startScreen{
+    position:absolute;
+    top:50%;
+    left:50%;
+    background: white;
+    transform:translate(-50%,-50%);
+    color:#005366;
+    z-index: 1;
+    text-align:center;
+    border:12px solid #009f92;
+    padding:15px;
+    margin:auto;
+    width:50%;
+    cursor: pointer;
+    font-family: carfont;
+    letter-spacing: 5;
+    font-size: 20px;
+    word-spacing: 3;
+    line-height: 30px;
+    text-transform: upper;
+
+}
+.score{
+    position:absolute;
+    top:15px;
+    left:40px;
+    color: #009f92;
+    height:50px;
+    width:120px;
+    text-align:center;
+    font-size: 1.5em;
+    background-color:white;
+    font-family: fantasy;
+    box-shadow: 0 5px 5px #777;
+}
+.border-left {
+    width: 80px;
+    height: 790px;
+    position:  absolute;
+    background-color: white;
+    z-index: +2;
+}
+
+.border-right {
+    width: 80px;
+    height: 790px;
+    position: absolute;
+    background-color: white;
+    z-index: +2;
+    left: 580px;
+}
+
+.border-top {
+    width: 660px;
+    height: 50px;
+    position:  absolute;
+    background-color: white;
+    z-index: +2;
+    top: -50px;
+}
+.sky{
+    background-color: lightblue;
+    background-image: url(./fb-game-background.png);
+    height:580px ;
+    width: 600px;
+    position: absolute;
+}
+.ground{
+
+    background-image: url(./bottom-background.png);
+    height: 150px; ;
+    width: 600px;
+    position: absolute;
+    top: 580px;
+    z-index: +1;
+}
+.bird{
+    background-image: url('./flappy-bird.png');
+    position:absolute;
+    width: 60px;
+    height: 45px;
+}
+.obstacle{
+    
+    background-color: yellowgreen;
+    background-image: url('./flappybird-pipe.png');
+    width: 60px;
+    height:300px ;
+    position: absolute;
+}
+.topObstacle{
+    
+    background-color: yellowgreen;
+    background-image: url('./flappybird-pipe.png');
+    transform: rotate(180deg);
+    width: 60px;
+    height:300px ;
+    position: absolute;
+}
