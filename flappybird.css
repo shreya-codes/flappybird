@@ -32,7 +32,6 @@
     word-spacing: 3;
     line-height: 30px;
     text-transform: upper;
-
 }
 .score{
     position:absolute;
@@ -43,8 +42,7 @@
     width:120px;
     text-align:center;
     font-size: 1.5em;
-    background-color:white;
-    font-family: fantasy;
+    background-color:white;;
     box-shadow: 0 5px 5px #777;
 }
 .border-left {
